@@ -19,14 +19,41 @@
 
 <body>
 
-<main role="main" class="container">
-    <div class="jumbotron text-center">
-        <img src="assets/img/logo.png"/>
-        <h1>Jatin Gupta</h1>
-        <p class="lead">Developer and Data Enthusiast</p>
-        <a class="btn btn-lg btn-primary" href="#" role="button" >Know more</a>
+
+<div class="row">
+    <div class="col-3">
+      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Welcome</a>
+        <a class="nav-link" id="v-pills-who-am-i-tab" data-toggle="pill" href="#v-pills-who-am-i" role="tab" aria-controls="v-pills-who-am-i" aria-selected="false">Who Am I</a>
+        <a class="nav-link" id="v-pills-what-i-have-done-tab" data-toggle="pill" href="#v-pills-what-i-have-done" role="tab" aria-controls="v-pills-what-i-have-done" aria-selected="false">What I have done</a>
+        <a class="nav-link" id="v-pills-what-i-am-doing-tab" data-toggle="pill" href="#v-pills-what-i-am-doing" role="tab" aria-controls="v-pills-what-i-am-doing" aria-selected="false">What I am doing</a>
+        <a class="nav-link" id="v-pills-what-can-i-do-tab" data-toggle="pill" href="#v-pills-what-can-i-do" role="tab" aria-controls="v-pills-what-can-i-do" aria-selected="false">What I can do</a>
+        <a class="nav-link" id="v-pills-what-i-want-to-do-tab" data-toggle="pill" href="#v-pills-what-i-want-to-do" role="tab" aria-controls="v-pills-what-i-want-to-do" aria-selected="false">What I want to do</a>
+
+      </div>
     </div>
-</main>
+    <div class="col-9">
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <main role="main" class="container-fluid">
+                <div class="jumbotron text-center">
+                    <img src="assets/img/logo.png"/>
+                    <h1>Jatin Gupta</h1>
+                    <p class="lead">Developer and Data Enthusiast</p>
+                    <a class="btn btn-lg btn-primary" href="#" role="button" >Know more</a>
+                </div>
+            </main>
+        </div>
+        <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Who am I</div>
+        <div class="tab-pane fade" id="v-pills-who-am-i" role="tabpanel" aria-labelledby="v-pills-who-am-i-tab">Who am I</div>
+        <div class="tab-pane fade" id="v-pills-what-i-have-done" role="tabpanel" aria-labelledby="v-pills-what-i-have-done-tab">What I have done</div>
+        <div class="tab-pane fade" id="v-pills-what-i-am-doing" role="tabpanel" aria-labelledby="v-pills-what-i-am-doing-tab">What I am doing</div>
+        <div class="tab-pane fade" id="v-pills-what-can-i-do" role="tabpanel" aria-labelledby="v-pills-what-can-i-do-tab">What can I do</div>
+        <div class="tab-pane fade" id="v-pills-what-i-want-to-do" role="tabpanel" aria-labelledby="v-pills-what-i-want-to-do-tab">What I want to do</div>
+
+      </div>
+    </div>
+  </div>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
