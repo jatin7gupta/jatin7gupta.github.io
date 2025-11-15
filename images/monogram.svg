@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="JG monogram">
+  <defs>
+    <linearGradient id="jg-stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="15" fill="none" stroke="url(#jg-stroke)" stroke-width="3" />
+  <path d="M22 16v20c0 8 5 12 12 12h4" fill="none" stroke="#f97316" stroke-width="4" stroke-linecap="round" />
+  <path d="M36 18h12v10h-8v8h6" fill="none" stroke="#f97316" stroke-width="4" stroke-linecap="round" />
+</svg>
